@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sun.ao&#39;s blog on sun.ao&#39;s blog</title>
+    <link>https://sunao.site/</link>
+    <description>Recent content in sun.ao&#39;s blog on sun.ao&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <atom:link href="https://sunao.site/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>https://sunao.site/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunao.site/about/</guid>
+      <description>&lt;p&gt;Hello world&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://sunao.site/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunao.site/post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
