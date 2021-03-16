@@ -5,6 +5,16 @@
     <link>https://sunao.site/post/</link>
     <description>Recent content in Posts on sun.ao&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://sunao.site/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 16 Mar 2021 20:11:20 +0800</lastBuildDate><atom:link href="https://sunao.site/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo &#43; Github Pages 搭建 Blog</title>
+      <link>https://sunao.site/post/hugo-blog/</link>
+      <pubDate>Tue, 16 Mar 2021 20:11:20 +0800</pubDate>
+      
+      <guid>https://sunao.site/post/hugo-blog/</guid>
+      <description>安装hugo # windows https://github.com/gohugoio/hugo/releases # macOS brew install hugo 初始化 # hugo-blog 为自定义文件夹 hugo new site hugo-blog cd hugo-blog # 下载主题 （根据需求自定） git init git submodule add https://github.com/sun-ao/mogege themes/mogege # 模版演示 cp -R themes/mogege/exampleSite/content . # 调试 hugo server 发布 hugo cd</description>
+    </item>
+    
   </channel>
 </rss>
