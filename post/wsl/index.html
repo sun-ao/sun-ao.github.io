@@ -9,9 +9,9 @@
     <meta name="description" content="sun.ao 的个人博客">
     
     
+    <link rel="prev" href="https://sunao.site/post/hugo-blog/" />
     
-    <link rel="next" href="https://sunao.site/post/wsl/" />
-    <link rel="canonical" href="https://sunao.site/post/hugo-blog/" />
+    <link rel="canonical" href="https://sunao.site/post/wsl/" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
     <title>
         
         
-            Hugo &#43; Github Pages 搭建 Blog | sun.ao&#39;s blog
+            Windows Subsystem for Linux | sun.ao&#39;s blog
         
     </title>
-    <meta name="title" content="Hugo &#43; Github Pages 搭建 Blog | sun.ao&#39;s blog">
+    <meta name="title" content="Windows Subsystem for Linux | sun.ao&#39;s blog">
     
 <link rel="stylesheet" href="/css/main.min.css">
 
@@ -43,9 +43,9 @@
          "@id": "https:\/\/sunao.site"
     },
     "articleSection" : "post",
-    "name" : "Hugo \u002b Github Pages 搭建 Blog",
-    "headline" : "Hugo \u002b Github Pages 搭建 Blog",
-    "description" : "安装hugo # windows https:\/\/github.com\/gohugoio\/hugo\/releases # macOS brew install hugo 初始化 # hugo-blog 为自定义文件夹 hugo new site hugo-blog cd hugo-blog # 下载主题 （根据需求自定） git init git submodule add https:\/\/github.com\/sun-ao\/mogege themes\/mogege # 模版演示 cp -R themes\/mogege\/exampleSite\/content . cp themes\/mogege\/exampleSite\/config.toml . # 调试 hugo server 发",
+    "name" : "Windows Subsystem for Linux",
+    "headline" : "Windows Subsystem for Linux",
+    "description" : "开启 # 管理员身份运行 PowerShell Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux 选择Linux发行版本 Ubuntu （打开 Microsoft Store，搜索「WSL」） # 查询Ubuntu版本 cat \/etc\/issue # Ubuntu 20.04 LTS \\n \\l 软件镜像源 cd",
     "inLanguage" : "zh-cn",
     "author" : "sun.ao",
     "creator" : "sun.ao",
@@ -53,10 +53,10 @@
     "accountablePerson" : "sun.ao",
     "copyrightHolder" : "sun.ao",
     "copyrightYear" : "2021",
-    "datePublished": "2021-03-16 20:11:20 \u002b0800 CST",
-    "dateModified" : "2021-03-16 20:11:20 \u002b0800 CST",
-    "url" : "https:\/\/sunao.site\/post\/hugo-blog\/",
-    "wordCount" : "105",
+    "datePublished": "2021-03-17 18:51:44 \u002b0800 CST",
+    "dateModified" : "2021-03-17 18:51:44 \u002b0800 CST",
+    "url" : "https:\/\/sunao.site\/post\/wsl\/",
+    "wordCount" : "266",
     "keywords" : [  "sun.ao\u0027s blog"]
 }
 </script>
@@ -146,15 +146,15 @@
                     
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Hugo &#43; Github Pages 搭建 Blog</h1>
+        <h1 class="post-title" itemprop="name headline">Windows Subsystem for Linux</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://sunao.site" rel="author">sun.ao</a> with ♥
                 <span class="post-time">
-                on <time datetime=2021-03-16 itemprop="datePublished">March 16, 2021</time>
+                on <time datetime=2021-03-17 itemprop="datePublished">March 17, 2021</time>
                 </span>
                 in
                 
-                <span class="post-word-count">105 words</span>
+                <span class="post-word-count">266 words</span>
         </div>
     </header>
 
@@ -174,33 +174,48 @@
         
         
 
-        <h2 id="安装hugo">安装hugo</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-BASH" data-lang="BASH"><span style="color:#75715e"># windows</span>
-https://github.com/gohugoio/hugo/releases
-<span style="color:#75715e"># macOS</span>
-brew install hugo
-</code></pre></div><h2 id="初始化">初始化</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-BASH" data-lang="BASH"><span style="color:#75715e"># hugo-blog 为自定义文件夹</span>
-hugo new site hugo-blog
-cd hugo-blog
-<span style="color:#75715e"># 下载主题 （根据需求自定）</span>
-git init
-git submodule add https://github.com/sun-ao/mogege themes/mogege
-<span style="color:#75715e"># 模版演示</span>
-cp -R themes/mogege/exampleSite/content .
-cp themes/mogege/exampleSite/config.toml .
-<span style="color:#75715e"># 调试</span>
-hugo server
-</code></pre></div><h2 id="发布">发布</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-BASH" data-lang="BASH">hugo
-cd public
-git init
-<span style="color:#75715e"># sun-ao 填写自己的 github 用户名</span>
-git remote add origin https://github.com/sun-ao/sun-ao.github.io.git
-git add .
-git commit -m <span style="color:#e6db74">&#39;post&#39;</span>
-git push -f --set-upstream origin master
-</code></pre></div>
+        <blockquote>
+<p>开启</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash"><span style="color:#75715e"># 管理员身份运行 PowerShell</span>
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+</code></pre></div><blockquote>
+<p>选择Linux发行版本</p>
+</blockquote>
+<ul>
+<li><code>Ubuntu</code> （打开 Microsoft Store，搜索「WSL」）</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash"><span style="color:#75715e"># 查询Ubuntu版本 </span>
+cat /etc/issue
+
+<span style="color:#75715e"># Ubuntu 20.04 LTS \n \l</span>
+</code></pre></div><ul>
+<li><a href="https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/">软件镜像源</a></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">cd /etc/apt
+
+<span style="color:#75715e"># 备份</span>
+sudo cp sources.list sources.list.20200731
+
+<span style="color:#75715e"># 更新</span>
+find -name <span style="color:#e6db74">&#39;sources.list&#39;</span> | sudo xargs perl -pi -e <span style="color:#e6db74">&#39;s|http://archive.ubuntu.com/ubuntu/|https://mirrors.tuna.tsinghua.edu.cn/ubuntu/|g&#39;</span> 
+
+find -name <span style="color:#e6db74">&#39;sources.list&#39;</span> | sudo xargs perl -pi -e <span style="color:#e6db74">&#39;s|http://security.ubuntu.com/ubuntu/|https://mirrors.tuna.tsinghua.edu.cn/ubuntu/|g&#39;</span> 
+
+<span style="color:#75715e"># 更新源，使配置生效</span>
+sudo apt update 
+</code></pre></div><blockquote>
+<p>WSL 与 Windows 文件互通</p>
+</blockquote>
+<ul>
+<li>WSL：<code>/mnt</code></li>
+<li>Windows：<code>C:\Users\...\AppData\Local\Packages\...UbuntuonWindows_...\LocalState\rootfs</code></li>
+</ul>
+<blockquote>
+<p>重置系统</p>
+</blockquote>
+<p>在<code>开始</code>菜单对应的而应用图标点击右键，选择<code>更多</code>，点击<code>应用设置</code>，在新打开的窗口找到<code>重置</code>按钮，点击即可！</p>
+
     </div>
 
     <div class="post-copyright">
@@ -214,7 +229,7 @@ git push -f --set-upstream origin master
             
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://sunao.site/post/hugo-blog/>https://sunao.site/post/hugo-blog/</span>
+                    <a href=https://sunao.site/post/wsl/>https://sunao.site/post/wsl/</span>
             </p>
             
             
@@ -235,8 +250,8 @@ git push -f --set-upstream origin master
 
     <div class="post-nav">
         
+        <a href="https://sunao.site/post/hugo-blog/" class="prev" rel="prev" title="Hugo &#43; Github Pages 搭建 Blog"><i class="iconfont icon-left"></i>&nbsp;Hugo &#43; Github Pages 搭建 Blog</a>
         
-        <a href="https://sunao.site/post/wsl/" class="next" rel="next" title="Windows Subsystem for Linux">Windows Subsystem for Linux&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
