@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on sun.ao&#39;s blog</title>
-    <link>https://sunao.site/post/</link>
+    <link>https://sunao.cc/post/</link>
     <description>Recent content in Posts on sun.ao&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Mar 2021 18:51:44 +0800</lastBuildDate><atom:link href="https://sunao.site/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 18:51:44 +0800</lastBuildDate><atom:link href="https://sunao.cc/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Subsystem for Linux</title>
-      <link>https://sunao.site/post/wsl/</link>
+      <link>https://sunao.cc/post/wsl/</link>
       <pubDate>Wed, 17 Mar 2021 18:51:44 +0800</pubDate>
       
-      <guid>https://sunao.site/post/wsl/</guid>
+      <guid>https://sunao.cc/post/wsl/</guid>
       <description>开启 # 管理员身份运行 PowerShell Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux 选择Linux发行版本 Ubuntu （打开 Microsoft Store，搜索「WSL」） # 查询Ubuntu版本 cat /etc/issue # Ubuntu 20.04 LTS \n \l 软件镜像源 cd</description>
     </item>
     
     <item>
       <title>Hugo &#43; Github Pages 搭建 Blog</title>
-      <link>https://sunao.site/post/hugo-blog/</link>
+      <link>https://sunao.cc/post/hugo-blog/</link>
       <pubDate>Tue, 16 Mar 2021 20:11:20 +0800</pubDate>
       
-      <guid>https://sunao.site/post/hugo-blog/</guid>
+      <guid>https://sunao.cc/post/hugo-blog/</guid>
       <description>安装hugo # windows https://github.com/gohugoio/hugo/releases # macOS brew install hugo 初始化 # hugo-blog 为自定义文件夹 hugo new site hugo-blog cd hugo-blog # 下载主题 （根据需求自定） git init git submodule add https://github.com/sun-ao/mogege themes/mogege # 模版演示 cp -R themes/mogege/exampleSite/content . cp themes/mogege/exampleSite/config.toml . # 调试 hugo server 发</description>
     </item>
     

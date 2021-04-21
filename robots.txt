@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://sunao.site/sitemap.xml
+Sitemap: https://sunao.cc/sitemap.xml
