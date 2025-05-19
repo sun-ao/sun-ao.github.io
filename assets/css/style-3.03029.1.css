@@ -19,7 +19,7 @@ p{color:#1d232b;margin:0;white-space:normal;word-break:break-all}
 .page-container{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-direction:row;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row}
 .page-container>.flex-fill{min-width:0}
 .main-content{-ms-flex-direction:column;flex-direction:column;display:-ms-flexbox;display:flex}
-.content-site{padding:0 15px;width:100%;margin-right:auto;margin-left:auto}
+.content-site{padding:15px;width:100%;margin-right:auto;margin-left:auto}
 .down-content img,.site-content img,.apd img,.post-apd img,.panel-body img{max-width:100%;height:auto}
 .nothing{padding:20px 0;text-align:center;color:#888;background:rgba(136,136,136,.2);border-radius:5px}
 .sticky{position:-webkit-sticky;position:sticky;top:0;z-index:1080} 
@@ -28,7 +28,7 @@ p{color:#1d232b;margin:0;white-space:normal;word-break:break-all}
 .disabled{pointer-events:none;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:url("data:image/svg+xml;utf8,#grayscale");filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter:grayscale(1)}
 @media (min-width:1920px){.content-site{max-width:1900px}
 }
-@media (min-width:768px){.content-site{padding:0 30px}
+@media (min-width:768px){.content-site{padding:30px}
 }
 /*--------------------------------------------------------------
 ## WordPress Basics style
