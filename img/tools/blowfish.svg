@@ -1,0 +1,77 @@
+<svg width="300" height="200" viewBox="0 0 300 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- background -->
+  <rect width="300" height="200" rx="20" fill="#111827"/>
+
+
+  <!-- icon box -->
+  <rect x="35" y="45"
+        width="90"
+        height="90"
+        rx="24"
+        fill="#2563EB"/>
+
+
+  <!-- blowfish abstract fish body -->
+  <path d="
+    M60 90
+    C70 72 98 70 108 90
+    C98 110 70 108 60 90Z"
+    fill="#FFFFFF"/>
+
+
+  <!-- fish tail -->
+  <path d="
+    M62 90
+    L45 76
+    V104
+    Z"
+    fill="#FFFFFF"/>
+
+
+  <!-- fish eye -->
+  <circle cx="92" cy="86" r="5"
+          fill="#2563EB"/>
+
+
+  <!-- bubble -->
+  <circle cx="108" cy="70"
+          r="6"
+          fill="#93C5FD"/>
+
+  <circle cx="118" cy="58"
+          r="3"
+          fill="#BFDBFE"/>
+
+
+  <!-- title -->
+  <text x="145"
+        y="92"
+        font-family="Arial, Noto Sans, sans-serif"
+        font-size="28"
+        font-weight="700"
+        fill="#F9FAFB">
+        Blowfish
+  </text>
+
+
+  <!-- subtitle -->
+  <text x="145"
+        y="118"
+        font-family="Arial, Noto Sans, sans-serif"
+        font-size="12"
+        fill="#9CA3AF">
+        Hugo Theme
+  </text>
+
+
+  <!-- bottom accent -->
+  <rect x="145"
+        y="140"
+        width="70"
+        height="4"
+        rx="2"
+        fill="#60A5FA"/>
+
+</svg>

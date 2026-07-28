@@ -1,0 +1,96 @@
+<svg width="300" height="200" viewBox="0 0 300 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- background -->
+  <rect width="300" height="200" rx="20" fill="#F7F4EF"/>
+
+
+  <!-- icon container -->
+  <rect x="35" y="45"
+        width="85"
+        height="85"
+        rx="22"
+        fill="#D97757"/>
+
+
+  <!-- terminal window -->
+  <rect x="52" y="65"
+        width="52"
+        height="38"
+        rx="7"
+        fill="#FFFFFF"/>
+
+
+  <!-- terminal dots -->
+  <circle cx="63" cy="74" r="3" fill="#D97757"/>
+  <circle cx="73" cy="74" r="3" fill="#E7B19A"/>
+  <circle cx="83" cy="74" r="3" fill="#F3D5C8"/>
+
+
+  <!-- code brackets -->
+  <path d="
+    M67 87
+    L74 93
+    L67 99
+    M89 87
+    L82 93
+    L89 99"
+    fill="none"
+    stroke="#D97757"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+
+  <!-- AI sparkle -->
+  <path d="
+    M101 58
+    L104 65
+    L111 68
+    L104 71
+    L101 78
+    L98 71
+    L91 68
+    L98 65Z"
+    fill="#FFFFFF"/>
+
+
+  <!-- title -->
+  <text x="140"
+        y="82"
+        font-family="Arial, Noto Sans, sans-serif"
+        font-size="21"
+        font-weight="700"
+        fill="#1F2937">
+        Claude
+  </text>
+
+  <text x="140"
+        y="108"
+        font-family="Arial, Noto Sans, sans-serif"
+        font-size="21"
+        font-weight="700"
+        fill="#1F2937">
+        Code
+  </text>
+
+
+  <!-- subtitle -->
+  <text x="140"
+        y="132"
+        font-family="Arial, Noto Sans, sans-serif"
+        font-size="11"
+        fill="#6B7280">
+        AI Coding Agent
+  </text>
+
+
+  <!-- accent -->
+  <rect x="140"
+        y="150"
+        width="65"
+        height="4"
+        rx="2"
+        fill="#D97757"/>
+
+</svg>

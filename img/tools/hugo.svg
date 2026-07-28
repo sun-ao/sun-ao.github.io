@@ -1,0 +1,60 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- background -->
+  <rect width="300" height="200" rx="20" fill="#F5F7FA"/>
+
+  <!-- icon container -->
+  <rect x="35" y="45" width="90" height="90" rx="22" fill="#00ADD8"/>
+
+  <!-- document shape -->
+  <path d="M60 70
+           C60 64 64 60 70 60
+           H92
+           L108 76
+           V112
+           C108 118 104 122 98 122
+           H70
+           C64 122 60 118 60 112Z"
+        fill="#FFFFFF"/>
+
+  <!-- folded corner -->
+  <path d="M92 60V76H108"
+        fill="#D9F5FC"/>
+
+  <!-- lightning -->
+  <path d="M84 76
+           L70 96
+           H83
+           L76 112
+           L98 88
+           H85Z"
+        fill="#00ADD8"/>
+
+
+  <!-- Hugo text -->
+  <text x="145"
+        y="92"
+        font-family="Arial, Noto Sans, sans-serif"
+        font-size="32"
+        font-weight="700"
+        fill="#111827">
+        Hugo
+  </text>
+
+  <!-- subtitle -->
+  <text x="145"
+        y="120"
+        font-family="Arial, Noto Sans, sans-serif"
+        font-size="12"
+        fill="#6B7280">
+        Static Blog Engine
+  </text>
+
+
+  <!-- speed line -->
+  <path d="M145 140 H235"
+        stroke="#00ADD8"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+</svg>
