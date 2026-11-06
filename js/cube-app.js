@@ -8,8 +8,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/OrbitControls.js';
 
-const STORAGE_KEY = 'sunao:cube-entered';
-
 // ============ 国际化配置 ============
 const i18n = {
   'zh-cn': {
@@ -605,11 +603,7 @@ function createParticleExplosion() {
 
 // ============ 过渡到主页 ============
 function transitionToMain() {
-  // 记住已进入，下次访问直接看正文
-  try {
-    localStorage.setItem(STORAGE_KEY, '1');
-  } catch (e) { /* 隐私模式下忽略 */ }
-
+  // 不再写 localStorage：魔方是首页招牌，每次打开都应该出现
   document.documentElement.classList.remove('cube-pending');
   unlockPageNavigation();
 
